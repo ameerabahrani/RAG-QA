@@ -1,3 +1,5 @@
+RAG-Question Answering System Using Dense Sentence Embeddings
+
 This program implements a Retrieval-Augmented Generation (RAG) pipeline for open-domain question answering.
 It retrieves relevant passages from Wikipedia using dense sentence embeddings and cosine similarity, then passes the top passages to an LLM to generate a concise, grounded answer.
 The goal is to show that a language model's answers can be improved and made more factual by grounding them in retrieved evidence rather than relying on the model's parametric memory alone.
